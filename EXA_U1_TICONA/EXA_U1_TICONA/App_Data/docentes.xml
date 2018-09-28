@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<docentes>
+  <docente>
+    <codigo>EPIS-1</codigo>
+    <nombre>Enrique Félix</nombre>
+    <apellido>Lanchipa Valencia</apellido>
+    <email>elanchipa@upt.pe</email>
+  </docente>
+  <docente>
+    <codigo>EPIS-2</codigo>
+    <nombre>Luis A.</nombre>
+    <apellido>Fernández Viscarra</apellido>
+    <email>lfvfernandez@msn.com</email>
+  </docente>
+  <docente>
+    <codigo>EPIS-3</codigo>
+    <nombre>Hugo Martin</nombre>
+    <apellido>Alcantara Martinez</apellido>
+    <email>halcantaram@upt.pe</email>
+  </docente>
+</docentes>

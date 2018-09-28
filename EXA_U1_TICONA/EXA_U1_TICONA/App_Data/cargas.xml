@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cargas>
+  <carga>
+    <id>1</id>
+    <codigoCurso>SI-874</codigoCurso>
+    <codigoDocente>EPIS-1</codigoDocente>
+  </carga>
+  <carga>
+    <id>2</id>
+    <codigoCurso>SI-973</codigoCurso>
+    <codigoDocente>EPIS-2</codigoDocente>
+  </carga>
+  <carga>
+    <id>3</id>
+    <codigoCurso>SI-972</codigoCurso>
+    <codigoDocente>EPIS-3</codigoDocente>
+  </carga>
+</cargas>

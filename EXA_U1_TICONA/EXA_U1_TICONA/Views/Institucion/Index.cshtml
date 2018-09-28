@@ -1,0 +1,56 @@
+﻿@using EXA_U1_TICONA.Models;
+@model IEnumerable<EXA_U1_TICONA.Models.ClsCarga>
+@{
+	
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title></title>
+</head>
+<body>
+    <div>
+        <h2>Listar Carga</h2>
+        <br />
+        <br />
+        @using (Html.BeginForm("Index", "Institucion", FormMethod.Post))
+        {
+            @Html.Label("Ingrese :")
+            <br>
+            @Html.TextBox("criterio")
+            <br />
+            @Html.RadioButton("radio", "Docente")<span>Docente </span>
+            @Html.RadioButton("radio", "Curso")<span>Curso</span>
+            <br />
+            <input type="submit" value="Buscar" />
+        }
+        <br />
+        <table border="1">
+            <tr>
+                <th>N°</th>
+                <th>Nombres y Apellidos</th>
+                <th>Curso</th>
+                <th>Horas</th>
+                <th>Creditos</th>
+            </tr>
+            @*@{int numero = 1;}*@
+            @foreach (var c in Model)
+            {
+                <tr>
+                    @*<td>@(numero++)</td>*@
+                    <td>@Html.DisplayFor(modelItem => c.id)</td>
+                    <td>@Html.DisplayFor(modeItem => c.nombresDocentes)<span>, </span>@Html.DisplayFor(ModelItem => c.apellidosDocentes)</td>
+                    <td>@Html.DisplayFor(modeItem => c.nombreCurso)</td>
+                    <td align="center">@Html.DisplayFor(modeItem => c.horasCurso)</td>
+                    <td align="center">@Html.DisplayFor(modeItem => c.creditosCurso)</td>
+                </tr>
+
+            }
+        </table>
+    </div>
+</body>
+</html>
+

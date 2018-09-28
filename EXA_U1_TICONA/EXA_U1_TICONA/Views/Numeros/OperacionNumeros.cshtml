@@ -1,0 +1,20 @@
+﻿@model EXA_U1_TICONA.Models.ClsNumeros
+@{
+    ViewBag.Title = "OperacionNumeros";
+}
+
+<h2>OperacionNumeros</h2>
+
+@using (Html.BeginForm("OperacionNumeros", "Numeros", FormMethod.Post, new { criterio = "frm-numeros" }))
+{
+    <div class="form-group">
+        @Html.Label("Ingrese el Número:")
+        @Html.TextBoxFor(x => x.numero, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.numero, null, new { @class = "label label-danger" })
+    </div>
+    <br />
+    <input type="submit" value="CALCULAR" class="btn btn-primary" />
+}
+<br />
+<br />
+<p>@ViewBag.ResultadoP<span>@ViewBag.ResultadoT</span></p>

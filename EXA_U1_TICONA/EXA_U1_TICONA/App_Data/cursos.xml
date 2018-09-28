@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cursos>
+  <curso>
+    <codigo>SI-874</codigo>
+    <nombre>DESARROLLO DE APLICACIONES WEB II</nombre>
+    <horas>6</horas>
+    <creditos>4</creditos>
+    <prerequisitos>Ninguno</prerequisitos>
+  </curso>
+  <curso>
+    <codigo>SI-973</codigo>
+    <nombre>REDES Y COMUNICACION  DE DATOS III</nombre>
+    <horas>6</horas>
+    <creditos>4</creditos>
+    <prerequisitos>Ninguno</prerequisitos>
+  </curso>
+  <curso>
+    <codigo>SI-972</codigo>
+    <nombre>METODOLOGIA DE LA INVERTIGACION APLICADAS</nombre>
+    <horas>6</horas>
+    <creditos>4</creditos>
+    <prerequisitos>Ninguno</prerequisitos>
+  </curso>
+</cursos>
